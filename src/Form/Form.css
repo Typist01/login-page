@@ -64,6 +64,9 @@ body {
 .disabled:hover {
   background-color: #6d6775;
 }
+.success-message {
+  text-align: center;
+}
 
 /* removing default html decoration from Age input  */
 /* Chrome, Safari, Edge, Opera */
