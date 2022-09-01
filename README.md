@@ -1,3 +1,14 @@
+# Simple app for submitting a form to an api
+### User interface:
+![image](https://user-images.githubusercontent.com/99654337/188016582-9d8ae6cf-9d11-478e-b802-50dc2d8b888b.png)
+### handling of invalid inputs:
+![image](https://user-images.githubusercontent.com/99654337/188016670-5a3ac481-0d37-4c1f-b5b7-d0e5663148cd.png)
+![image](https://user-images.githubusercontent.com/99654337/188016694-ffde3e7b-31dd-4efb-8672-f37c87eb71fd.png)
+### Success page:
+![image](https://user-images.githubusercontent.com/99654337/188016731-533657c6-3c90-4ab8-917c-0f3db52cbcdb.png)
+
+Axios was used to handle the http requests.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
