@@ -1,0 +1,79 @@
+/** @format */
+:root {
+  --bg-color-one: #29262c;
+  --bg-color-two: #3f3a44;
+  --bg-color-three: #4b4552;
+  --bg-color-four: #585160;
+  --text-color: #ffffff;
+}
+body {
+  background-color: var(--bg-color-one);
+}
+.form-label {
+  display: block;
+  /* text-align: center; */
+  margin-bottom: 5px;
+  color: var(--text-color);
+  font-size: 22px;
+}
+.form-input {
+  display: block;
+  /* margin: auto; */
+  margin-bottom: 20px;
+  background-color: var(--bg-color-two);
+  border: none;
+  border-radius: 4px;
+  color: var(--text-color);
+  font-size: 18px;
+  padding: 3px 10px;
+  width: 100%;
+  height: 40px;
+}
+.form-input:hover {
+  background-color: var(--bg-color-three);
+}
+.form-input:focus {
+  background-color: var(--bg-color-two);
+  outline: none;
+}
+
+.form-container {
+  width: 600px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.form-submit-button {
+  width: 120px;
+  height: 60px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--bg-color-four);
+  color: white;
+  font-size: 18px;
+}
+.form-submit-button:hover {
+  background-color: #6b6375;
+}
+
+.disabled {
+  background-color: #6d6775;
+}
+.disabled:hover {
+  background-color: #6d6775;
+}
+
+/* removing default html decoration from Age input  */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
