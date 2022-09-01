@@ -29,15 +29,6 @@
 .App-link {
   color: #61dafb;
 }
-.success-page {
-  color: white;
-}
-.success-page p {
-  cursor: pointer;
-}
-.error-page {
-  color: red;
-}
 
 @keyframes App-logo-spin {
   from {
